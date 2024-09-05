@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Fraunces", serif;
+}
+
+
+$fonte-p: #686A77;
+$fundo-bege:#F3EAE3;
+$quabra: #ffffff;
+$verde:#418B70;
+
+
+body{
+    background-color: $fundo-bege;
+}
+
+#quabra{
+    margin-left: 420px;
+    margin-top: 175px;
+    width: 600px;
+    height: 450px;
+    background-color:$quabra ;
+}
+img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+#quabra{
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+#per{
+    font-family: "Montserrat", sans-serif;
+    margin-top: -418px;
+    margin-left: 330px;
+    color: $fonte-p;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 1px;
+    
+    
+}
+h1{
+    display: flex;
+    font-size: 32px;
+    color: black;
+    margin-left: 331px;
+    margin-top: 8.5px;
+    line-height: 32px;
+}
+#flor{
+    color: $fonte-p;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-left: 333px;
+    line-height: 23px;
+    margin-top: 3px;
+
+}
+h2{
+    color: $verde;
+    font-size: 32px;
+    padding-top: 4.3px;
+    margin-left: 332.3px;
+    margin-top: 6.2px;
+}
+#compras{
+    width: 234px;
+    height: 48px;
+    background-color: $verde;
+    border: 0px;
+    border-radius: 8px;
+    margin-left: 333px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#add{
+    display: flex;
+    color: $quabra;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+#pa{
+    font-size: 12.7px;
+    font-family: "Montserrat", sans-serif;
+    color: $fonte-p;
+    margin-left: 480px;
+    margin-top: -53px;
+    text-decoration: line-through;
+}
+#cart{
+    display: flex;
+    width: 17px;
+    height: 17px;
+    margin-left: 0px;
+    
+}
